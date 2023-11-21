@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Rammetto+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Slab:wght@400;600&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -56,7 +55,7 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section{
 
 body{
     background-color: #2E5461 ;
-    font-family: "Poiret One", Helvetica, sans-serif;
+    font-family: "Raleway", Helvetica, sans-serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -68,7 +67,7 @@ h2{
 
 .home-title{
     color: white;
-    font-family: "Rammetto One", Helvetica, sans-serif;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -119,7 +118,7 @@ nav a:hover{
 
 .msg h2{
     color: white;
-    font-family: "Rammetto One", Helvetica, sans-serif;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
 }
 
 .msg p{
