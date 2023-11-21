@@ -50,11 +50,11 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section{
 
 #background{
     height: 725px;
-    background-color: #4B9AAA;
+    background-color: #504B3A;
 }
 
 body{
-    background-color: #2E5461 ;
+    background-color: #7D8570 ;
     font-family: "Raleway", Helvetica, sans-serif;
     font-size: 22px;
     padding: 0;
@@ -73,7 +73,7 @@ h2{
 }
 
 header{
-    background-color: #1C2D36;
+    background-color: #F49E4C;
     opacity: 0.8;
     display: grid;
     grid-template-columns: 150px auto;
@@ -91,12 +91,12 @@ nav {
 }
 
 nav a:hover{
-    background-color: #2E5461 ;
+    background-color: #F2542D ;
     color: white;
 }
 
 .book, .join{
-    background-color: #4B9AAA ;
+    background-color: #F49E4C;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -106,12 +106,12 @@ nav a:hover{
 }
 
 .book:hover, .join:hover{
-    background-color:#1C2D36;
+    background-color:#F2542D;
     color: white;
 }
 
 .msg{
-    background-color: #2E5461;
+    background-color: #7D8570;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -128,7 +128,7 @@ nav a:hover{
 }
 
 footer{
-    background-color: #1C2D36;
+    background-color: #F49E4C;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;

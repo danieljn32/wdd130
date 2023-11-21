@@ -2,29 +2,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Slab:wght@400;600&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2E5461  ;
-  --secondary-color: #4B9AAA ;
-  --accent1-color: #1C2D36;
-  --accent2-color: #92849A;
+  --primary-color: #7D8570  ;
+  --secondary-color: #504B3A;
+  --accent1-color: #F49E4C;
+  --accent2-color: #F2542D;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rammetto One";
-  --paragraph-font: "Poiret One", Helvetica, sans-serif;
+  --heading-font: "Roboto Slab";
+  --paragraph-font: "Raleway", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #504B3A;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #7D8570; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #92849A;
+  --paragraph-background-color: #7D8570;
   --nav-link-color: white ;
-  --nav-background-color: #1C2D36;
+  --nav-background-color: #F49E4C;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #4B9AAA;
+  --nav-hover-background-color: #F2542D;
 }
 
 
