@@ -1,0 +1,125 @@
+/*Header*/
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff8552;
+    display: grid;
+    grid-template-columns: 150px auto;
+    text-align: center;
+    max-height: 150x;
+}
+
+.logo{
+    width: 100px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #1c5d99 ;
+    color: white;
+}
+
+/*Footer*/
+
+
+footer{
+    background-color: #ff8552;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+
+footer p{
+    font-size: 1.2em;
+    
+}
+footer p :hover{
+    color: white;
+    background-color: #1c5d99;
+    text-decoration: none;
+}
+/*Hero Image*/
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+/*Home Title*/
+
+#hero-msg{
+    font-size: x-large;
+    text-align: center;
+    color: #1c5d99;
+    grid-column: 2;
+}
+
+/*Main Paragraph*/
+
+
+#home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.reasons p{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+/* Bottom Images*/
+
+.headlight-img, .brush-img{
+    width: 800px;
+    height: 500px;
+}
+
+.headlight-img{
+    grid-column: 1/3;
+    grid-row: 2.3;
+}
+
+.brush-img{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
