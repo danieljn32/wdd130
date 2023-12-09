@@ -246,6 +246,7 @@ footer p :hover{
     grid-column: 1/4;
     grid-row: 1/4;
     z-index: -1;
+    opacity: 50%;
 }
 
 #hero-msg2{
@@ -270,28 +271,38 @@ footer p :hover{
     max-width: 1600px;
 }
 
+main {
+    color: white;
+}
+
 .title {
     grid-column: 3/4;
     grid-row: 1/2;
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 .package1 {
     grid-row: 2/3;
     grid-column: 2/3;
+    color: white;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
 
 .package1 h2 {
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 .package2 {
     grid-row: 2/3;
     grid-column: 4/5;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
 
 .package2 h2 {
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 .pricing1 {
@@ -299,24 +310,29 @@ footer p :hover{
     grid-row: 3/4;
     text-align: center;
     margin-top: 30px;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
 
 .package3 {
     grid-column: 2/3;
     grid-row: 4/5;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
 
 .package3 h2 {
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 .package4 {
     grid-column: 4/5;
     grid-row: 4/5;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
 
 .package4 h2 {
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 .brushimg {
@@ -331,16 +347,19 @@ footer p :hover{
     grid-column: 3/4;
     text-align: center;
     margin-top: 50px;
+    font-family: var(--heading-font);
 }
 
 .exterior-alacart {
     grid-row: 10/11;
     grid-column: 2/3;
     margin-bottom: 50px;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
 
 .interior-alacart {
     grid-row: 10/11;
     grid-column: 4/5;
     margin-bottom: 50px;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
