@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Montserrat&display=swap');
 
 :root {
-    --heading-font: "DM Sans";
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    --heading-font: 'DM Sans';
+    --paragraph-font: 'Montserrat';
 }
 
 /*Header*/
@@ -194,7 +194,7 @@ footer p :hover{
     font-size: 2em;
     text-align: center;
     color: white;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 .button-box{
@@ -286,7 +286,7 @@ main {
     grid-row: 2/3;
     grid-column: 2/3;
     color: white;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 .package1 h2 {
@@ -297,7 +297,7 @@ main {
 .package2 {
     grid-row: 2/3;
     grid-column: 4/5;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 .package2 h2 {
@@ -310,13 +310,13 @@ main {
     grid-row: 3/4;
     text-align: center;
     margin-top: 30px;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 .package3 {
     grid-column: 2/3;
     grid-row: 4/5;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 .package3 h2 {
@@ -327,7 +327,7 @@ main {
 .package4 {
     grid-column: 4/5;
     grid-row: 4/5;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 .package4 h2 {
@@ -354,14 +354,14 @@ main {
     grid-row: 10/11;
     grid-column: 2/3;
     margin-bottom: 50px;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 .interior-alacart {
     grid-row: 10/11;
     grid-column: 4/5;
     margin-bottom: 50px;
-    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 /*Contact us Page Main Content*/
@@ -401,6 +401,7 @@ main {
     vertical-align: middle;
     line-height: 75px;
     max-width: 775px;
+    font-family: var(--paragraph-font);
 }
 
 
@@ -415,6 +416,7 @@ main {
     max-width: 775px;
     max-height: 395px;
     margin-top: 75px;
+    font-family: var(--paragraph-font);
 }
 
 .questions {
@@ -422,16 +424,19 @@ main {
     grid-column: 5/8;
     background-color: #ff8552;
     max-width: 775px;
-    font-size: x-large;
+    font-size:xx-large;
     line-height: 75px;
     text-align: center;
     padding: 100px;
+    font-family: var(--paragraph-font);
 }
 
 .contact-info{
     grid-row: 7/8;
     grid-column: 1/8;
+    margin-top: 50px;
     background-color: #1c5d99;
     text-align: center;
     font-size: x-large;
+    font-family: var(--paragraph-font);
 }
