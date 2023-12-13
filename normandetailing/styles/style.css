@@ -416,7 +416,7 @@ main {
     max-width: 775px;
     max-height: 395px;
     margin-top: 75px;
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
 }
 
 .questions {
