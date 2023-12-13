@@ -375,7 +375,7 @@ main {
 }
 
 .home-grid3 h1 {
-    grid-column: 1/8;
+    grid-column: 3/6;
     grid-row: 1/2;
     background-color: #1c5d99;
     text-align: center;
@@ -405,30 +405,30 @@ main {
 }
 
 
+.contact-right{
+    max-width: 775px;
+    max-height: 800px;
+    grid-row: 3/8;
+    grid-column: 5/8;
+    background-color: #ff8552;
+    margin-top: -200px
+}
+
 .question-header{
     grid-row: 2/3;
     grid-column: 5/8;
-    background-color: #ff8552;
     font-size: 2em;
-    line-height: 75px;
     text-align: center;
-    padding: 100px;
-    max-width: 775px;
-    max-height: 395px;
-    margin-top: 75px;
     font-family: var(--heading-font);
+    padding: 50px;
 }
 
-.questions {
-    grid-row: 3/4;
-    grid-column: 5/8;
-    background-color: #ff8552;
-    max-width: 775px;
-    font-size:xx-large;
-    line-height: 75px;
-    text-align: center;
-    padding: 100px;
+.questions{
+    font-size:large;
+    text-align:left;
     font-family: var(--paragraph-font);
+    padding: 50px;
+    margin-top: -75px;
 }
 
 .contact-info{
@@ -440,3 +440,86 @@ main {
     font-size: x-large;
     font-family: var(--paragraph-font);
 }
+
+
+/* Contact Us Form*/
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+  
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+  
+input:focus, textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+  
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+}
+  
+.form-button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+  
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+

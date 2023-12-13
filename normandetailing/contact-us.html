@@ -24,20 +24,33 @@
             <p class="contact-copy">
                 Norman Car Detailing: Contact us by phone or by email. When reaching out about a car detailing appointment, please provide us with information about your detaling preferences so that we know how to assist you.
             </p>
-            <h2 class="question-header">
-                Please include answers to following questions when contacting:
-            </h2>
-            <div class="questions">
-                <p>What is your cars year, make, and model?</p>
-                <p>Based on the current state of your car, which package are you expecting you would need?</p>
-                <p>What is your availability?</p>
-                <p>Where are you located?</p>
-            </div>
-            <div class="contact-info">
-                <p>Phone</p>
-                <p>###-###-####</p>
-                <p>Email</p>
-                <p>normandetailing@example.com</p>
+            <div class="contact-right">   
+                <h2 class="question-header"> Please include answers to following questions when contacting:</h2>
+                <div class="questions">
+                    <p>What is your cars year, make, and model?</p>
+                    <p>Based on the current state of your car, which package are you expecting you would need?</p>
+                    <p>What is your availability?</p>
+                    <p>Where are you located?</p>
+                </div>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="form-button">
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
             </div>
         </main>
         <footer>
